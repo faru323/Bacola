@@ -29,6 +29,9 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.navbar1__left ul {
+  padding-left: 250px;
+}
 .navbar1__left ul li {
   color: rgb(88, 88, 88);
   text-decoration: none;
@@ -65,6 +68,7 @@ body {
 }
 .navbar1__right {
   /* Dropdown Button */
+  padding-right: 500px;
   color: #2bbef9;
 }
 .navbar1__right .dropbtn {
@@ -107,4 +111,108 @@ body {
 }
 .navbar1__right .dropdown:hover .dropbtn {
   background-color: #ffffff;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+.container nav .navbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgb(227, 227, 227);
+}
+.container nav .navbar__up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.container nav .navbar__up__left #logo {
+  width: 170px;
+  height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-left: 25px;
+  margin-right: 25px;
+}
+.container nav .navbar__up__middle {
+  display: flex;
+  justify-content: center;
+}
+.container nav .navbar__up__middle input {
+  width: 400px;
+  height: 60px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+  border: none;
+  background-color: whitesmoke;
+  padding-left: 15px;
+}
+.container nav .navbar__up__middle button {
+  width: 35px;
+  height: 60px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  border: none;
+  background-color: whitesmoke;
+}
+.container nav .navbar__up__right {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.container nav .navbar__up__right button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgb(216, 215, 215);
+  padding: 2px;
+  background-color: white;
+}
+.container nav .navbar__up__right .showhim button {
+  background-color: rgb(254, 241, 236);
+  margin-left: 20px;
+}
+.container nav .navbar__up__right .showhim button i {
+  color: orangered;
+}
+.container nav .navbar__up__right .showhim:hover {
+  cursor: pointer;
+}
+.container nav .navbar__up__right .showme {
+  display: none;
+  width: 250px;
+  height: 200px;
+  background-color: #a41d1d;
+  position: absolute;
+}
+.container nav .navbar__up__right .showhim:hover .showme {
+  display: block;
+}
+.button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.modal-body {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-body #location {
+  width: 400px;
+  height: 50px;
+}
+.modal-body ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */
