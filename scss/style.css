@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#covid {
+  width: 100%;
+  height: 35px;
+  background-color: #233a95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#covid__text {
+  font-size: small;
+  color: white;
+}
+
+.navbar1 {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(227, 227, 227);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar1__left ul li {
+  color: rgb(88, 88, 88);
+  text-decoration: none;
+  display: inline;
+  margin-left: 10px;
+  font-size: small;
+  transition: 0.3s;
+}
+.navbar1__left ul li:hover {
+  cursor: pointer;
+  color: #2bbef9;
+}
+.navbar1__middle .secure {
+  color: rgb(152, 151, 151);
+}
+.navbar1__middle .secure--text {
+  color: rgb(152, 151, 151);
+  font-size: small;
+  padding-right: 20px;
+  border-right: 1px solid rgb(205, 205, 205);
+}
+.navbar1__middle .help {
+  color: rgb(152, 151, 151);
+  font-size: small;
+  padding-right: 20px;
+  border-right: 1px solid rgb(204, 204, 204);
+}
+.navbar1__middle .help #phoneNum {
+  color: #2bbef9;
+  font-weight: 700;
+}
+.navbar1__middle .help #phoneNum:hover {
+  cursor: pointer;
+}
+.navbar1__right {
+  /* Dropdown Button */
+  color: #2bbef9;
+}
+.navbar1__right .dropbtn {
+  background-color: white;
+  color: rgb(119, 119, 119);
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  transition: 0.3s;
+}
+.navbar1__right .dropbtn:hover {
+  color: #2bbef9;
+  cursor: pointer;
+}
+.navbar1__right .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.navbar1__right .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.navbar1__right .dropdown-content a {
+  color: rgb(78, 78, 78);
+  padding: 12px 10px;
+  font-size: 12px;
+  text-decoration: none;
+  display: block;
+}
+.navbar1__right .dropdown-content a:hover {
+  color: #2bbef9;
+}
+.navbar1__right .dropdown:hover .dropdown-content {
+  display: block;
+  color: #2bbef9;
+}
+.navbar1__right .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
