@@ -118,8 +118,6 @@ body {
   margin: auto;
 }
 .container nav .navbar {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   height: 250px;
   border: 1px solid rgb(227, 227, 227);
@@ -195,6 +193,55 @@ body {
 .container nav .navbar__up__right .showhim:hover .showme {
   display: block;
 }
+.container nav .navbar__down {
+  display: flex;
+  flex-direction: row;
+}
+.container nav .navbar__down__left .category button {
+  width: 180px;
+  height: 60px;
+  padding: 10px 16px;
+  background-color: #2bbef9;
+  border: none;
+  color: white;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+.container nav .navbar__down__left .category button i {
+  color: rgb(255, 255, 255);
+}
+.container nav .navbar__down__left .category:hover {
+  cursor: pointer;
+}
+.container nav .navbar__down__left .active {
+  display: block;
+  width: 250px;
+  height: 400px;
+  background-color: #793939;
+}
+.container nav .navbar__down__right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container nav .navbar__down__right ul {
+  margin-left: 120px;
+}
+.container nav .navbar__down__right ul li {
+  margin-left: 10px;
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  transition: 0.3s;
+  padding: 10px;
+}
+.container nav .navbar__down__right ul li:hover {
+  cursor: pointer;
+  color: #2bbef9;
+  border-radius: 50px;
+  background-color: rgb(219, 239, 248);
+}
+
 .button {
   padding-top: 15px;
   padding-bottom: 15px;

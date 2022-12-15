@@ -78,66 +78,123 @@
                 alt=""
               />
 
-<button type="button"  class="btn btn-primary bg-white text-dark button btn-outline-secondary
+              <button
+                type="button"
+                class="btn btn-primary bg-white text-dark button btn-outline-secondary"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                Select a Location <i class="fa-solid fa-chevron-down"></i>
+              </button>
 
-" data-toggle="modal" data-target="#exampleModalCenter">
- Select a Location <i class="fa-solid fa-chevron-down"></i>
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Choose your Delivery Location</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <span>Enter your address and we will specify the offer for your area.
-          </span>
-        <input type="text" id="location"  placeholder="  search your area">
-        <ul>
-          <li>Select a Location</li>
-          <li>Alabama</li>
-          <li>Alaska</li>
-          <li>Arizona</li>
-          <li>California</li>
-          <li>Colorado</li>
-          <li>Florida</li>
-          <li>Georgia</li>
-          <li>Kansas</li>
-          <li>Minnesota</li>
-          <li>New York</li>
-          <li>Washington</li>
-        </ul>
-      </div>
-    
-    </div>
-  </div>
-</div>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLongTitle">
+                        Choose your Delivery Location
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <span
+                        >Enter your address and we will specify the offer for
+                        your area.
+                      </span>
+                      <input
+                        type="text"
+                        id="location"
+                        placeholder="  search your area"
+                      />
+                      <ul>
+                        <li>Select a Location</li>
+                        <li>Alabama</li>
+                        <li>Alaska</li>
+                        <li>Arizona</li>
+                        <li>California</li>
+                        <li>Colorado</li>
+                        <li>Florida</li>
+                        <li>Georgia</li>
+                        <li>Kansas</li>
+                        <li>Minnesota</li>
+                        <li>New York</li>
+                        <li>Washington</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="navbar__up__middle"><input type="text" placeholder="Search for products"> <button><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            <div class="navbar__up__middle">
+              <input type="text" placeholder="Search for products" />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
             <div class="navbar__up__right">
               <button><i class="fa-regular fa-user"></i></button>
-              <div class="showhim">$0.00 <button><i class="fa-solid fa-basket-shopping"></i></button>
+              <div class="showhim">
+                $0.00
+                <button><i class="fa-solid fa-basket-shopping"></i></button>
                 <div class="showme"></div>
               </div>
             </div>
           </div>
 
-
           <div class="navbar__down">
-
-            
+            <div class="navbar__down__left">
+              <div class="category">
+                <button id="categoryBtn">
+                  <i class="fa-solid fa-bars"></i> All Categories<i
+                    class="fa-solid fa-chevron-down"
+                  ></i>
+                </button>
+                <div class="active"></div>
+              </div>
+            </div>
+            <div class="navbar__down__right">
+              <ul>
+                <li>HOME</li>
+                <li>SHOP</li>
+                <li>MEATS & SEAFOOD</li>
+                <li>BAKERY</li>
+                <li>BEVERAGES</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src=".index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
