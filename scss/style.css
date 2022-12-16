@@ -297,4 +297,8 @@ section #active {
   body .navbar1 {
     display: none;
   }
+}
+.s__second__left img {
+  margin-top: 1%;
+  margin-left: 15% !important;
 }/*# sourceMappingURL=style.css.map */
