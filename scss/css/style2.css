@@ -1,0 +1,150 @@
+.s {
+  margin-top: 90px;
+  margin-left: 100px;
+}
+.s__second {
+  width: 70%;
+}
+.s__second__left img {
+  width: 350px;
+  height: 550px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 1%;
+  margin-left: 18% !important;
+  float: left;
+}
+.s__second__right {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.s__second__right__bestsell {
+  display: flex;
+  flex-direction: column;
+}
+.s__second__right__viewBtn button {
+  width: 185px;
+  border-radius: 50px;
+  height: 50px;
+  border: 1px solid rgb(174, 171, 171);
+  background-color: transparent;
+}
+.s__second__right__viewBtn button span {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.s__second__right__viewBtn button span i {
+  color: rgb(164, 164, 164);
+}
+.s__second__right__viewBtn button:hover span {
+  opacity: 1;
+}
+
+.related .related-pro {
+  border: 1px solid rgba(3, 3, 3, 0.132);
+  padding: 45px;
+  overflow: hidden;
+  transition: 1s;
+}
+.related .related-pro:hover {
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.related .related-pro .related-img {
+  position: relative;
+  cursor: pointer;
+}
+.related .related-pro .related-img:hover .rel-frst {
+  position: absolute;
+  top: -15px;
+  right: -25px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(0, 149, 2);
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.related .related-pro .related-img:hover .rel-frst:hover {
+  color: #fff;
+  background-color: #000;
+}
+.related .related-pro .related-img:hover .rel-scnd {
+  position: absolute;
+  top: 30px;
+  right: -25px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(149, 0, 0);
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+  transition: 1s;
+}
+.related .related-pro .related-img:hover .rel-scnd:hover {
+  color: #fff;
+  background-color: #000;
+}
+.related .related-pro .related-img img {
+  width: 100%;
+}
+.related .related-pro .related-img p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0077b5;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.related .related-pro .related-img .rel-frst {
+  position: absolute;
+  top: -15px;
+  right: -100px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(0, 149, 2);
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+}
+.related .related-pro .related-img .rel-frst:hover {
+  color: #fff;
+  background-color: #000;
+}
+.related .related-pro .related-img .rel-scnd {
+  position: absolute;
+  top: 30px;
+  right: -100px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  color: rgb(149, 0, 0);
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+}
+.related .related-pro .related-img .rel-scnd:hover {
+  color: #fff;
+  background-color: #000;
+}
+.related .related-pro i {
+  font-size: 10px;
+  margin-left: 2px;
+  color: darkgoldenrod;
+}
+.related .related-pro del {
+  color: rgb(201, 200, 200);
+  font-size: 13px;
+}

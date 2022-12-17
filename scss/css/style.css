@@ -287,3 +287,14 @@ section #active {
   background-color: rgb(214, 214, 214);
 }
 
+@media only screen and (max-width: 920px) {
+  body {
+    font-size: 10px;
+  }
+  body .covid {
+    display: none;
+  }
+  body .navbar1 {
+    display: none;
+  }
+}
