@@ -194,6 +194,7 @@
   
   #footer .bottom .middle ul {
     padding: 0;
+    float: left;
   }
   
   #footer .bottom .middle ul li {
@@ -241,3 +242,4 @@
     margin-top: 1%;
     margin-left: 15% !important;
   }/*# sourceMappingURL=style.css.map */
+  
